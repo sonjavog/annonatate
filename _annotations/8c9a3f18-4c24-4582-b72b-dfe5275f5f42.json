@@ -1,0 +1,37 @@
+---
+canvas: "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/canvas/foto1-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "das ist mein Test",
+            "purpose": "highlighting",
+            "creator": {
+                "id": "sonjavog",
+                "name": "sonjavog"
+            },
+            "created": "2024-03-15T09:40:15.651Z",
+            "modified": "2024-03-15T09:40:24.833Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/canvas/foto1-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"232.20233154296875,670.3031005859375 1068.6846923828125,630.1978149414062 977.015380859375,1151.56689453125 759.30078125,1077.0855712890625 770.7594604492188,1065.626953125\"></polygon></svg>"
+        }
+    },
+    "id": "8c9a3f18-4c24-4582-b72b-dfe5275f5f42.json",
+    "motivation": "commenting"
+}
