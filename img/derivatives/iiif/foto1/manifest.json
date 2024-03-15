@@ -1,12 +1,9 @@
 ---
-added: 2024-03-15 09&#58;30&#58;51.745625
-thumbnail: https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/IMG20220116140024/full/101,/0/default.jpg
-title: Foto1
-user: sonjavog
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: sonjavog
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/canvas/foto1-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/canvas/foto1-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: sonjavog
       },
       "thumbnail": [
         {
-          "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/IMG20220116140024/full/101,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/IMG20220116140024/full/101,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,30 +38,36 @@ user: sonjavog
       "width": 1616,
       "items": [
         {
-          "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/IMG20220116140024/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/IMG20220116140024/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3264,
                 "width": 1616,
                 "service": [
                   {
-                    "id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/IMG20220116140024",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/IMG20220116140024",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1/canvas/foto1-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/foto1/canvas/foto1-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/foto1-foto1-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
