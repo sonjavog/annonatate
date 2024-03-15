@@ -1,0 +1,67 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://sonjavog.github.io/annonatate/img/derivatives/iiif/foto1//IMG20220116140024",
+  "height": 3264,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 408,
+      "width": 202
+    },
+    {
+      "height": 204,
+      "width": 101
+    },
+    {
+      "height": 102,
+      "width": 51
+    },
+    {
+      "height": 51,
+      "width": 25
+    },
+    {
+      "height": 26,
+      "width": 13
+    },
+    {
+      "height": 13,
+      "width": 6
+    },
+    {
+      "height": 6,
+      "width": 3
+    },
+    {
+      "height": 3,
+      "width": 2
+    },
+    {
+      "height": 2,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1616
+}
